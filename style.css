@@ -22,48 +22,6 @@ nav{
 .topnav.icon{
   display: none;
 }
-@media screen and (max-width: 480px){
-  .layer1, .layer3{
-  max-width: 100%;
-  }
-.layer2{
- display: none;
-  max-width: 100%;
-  max-height: 600px;
-}
-.layer4{
-  max-width: 100%;
-}
-.layer5{
-  max-width: 100%;
-  max-height: 600px;
-}
-.layer7{
-  max-width: 100%;
-  max-height: 600px;
-}
-.layer8, .layer6{
-  max-width: 100%;
-}
-.layer9{
-  max-width: 100%;
-}
-.mainpic{
-  max-width: 95%;
-  max-height: 250px;
-  border: 0cm;
-}
-  .p3{
-    max-width: 100%;
-    max-height: 250px;
-    border: 0cm;
-  }
-  .p4{
-    max-width: 95%;
-    max-height: 500px;
-    border: 0cm;
-  }
-}
 .block{
 	background: #fff;
 	height: 400px;
@@ -78,6 +36,12 @@ h1{
 img{
      border: 2px solid #e6e2d3; 
     padding: 15px; 
+}
+.main_layer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
 }
 /*КАЙРАТ НУРТАС МИНИ БИОГРАФИЯ*/
 .layer1 {
@@ -122,6 +86,9 @@ img{
     float: center;
 
    }
+   .clear {
+    clear: left; 
+}
    .layer8{
      background-color: #6A5ACD; 
     width: 100%;
@@ -138,9 +105,6 @@ img{
     width: 300px;
     float: left;
    }
-   .clear {
-    clear: left; /* Отмена обтекания */
-}
 table, th, td {
   border: 1px solid black;
 }
